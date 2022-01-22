@@ -13,6 +13,7 @@ export default function Cards({ spaceData, index }) {
   }, []);
 
   return (
+    <>
     <div key={title} className="card">
       
       <img src={url} alt={title} className="card__img" />
@@ -32,9 +33,25 @@ export default function Cards({ spaceData, index }) {
             color: like ? "#FF0000" : "#fff"
           }}
         >
-          <i class="fab fa-gratipay fa-2x"></i>
+          <i className="fab fa-gratipay fa-2x"></i>
         </span>
       </div>
     </div>
+    <div className="animation-area"> 
+         <ul className="box-area">
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+         </ul>
+
+    </div>
+
+  
+  
+    </>
+
   );
 }
