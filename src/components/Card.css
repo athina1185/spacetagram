@@ -41,8 +41,7 @@ body {
     align-items: center;
     transition: 0.3s;
     border-radius: 5px;
-    position: absolute;  
-    justify-content: center;
+   justify-content: center;
   }
   
   .card__img {
